@@ -1,1 +1,14 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nested-dir-2-dir-3
+  title: nested-dir-2-dir-3
+  description: Component for nested-dir-2-dir-3
+  annotations:
+    github.com/project-slug: nested-dir-2-dir-3
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
