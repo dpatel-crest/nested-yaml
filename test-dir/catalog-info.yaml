@@ -1,1 +1,14 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nested-yaml-test-dir-catalog-yaml
+  title: abs-11
+  description: Component for nested-yaml-test-dir-catalog-yaml
+  annotations:
+    github.com/project-slug: nested-yaml-test-dir-catalog-yaml
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
