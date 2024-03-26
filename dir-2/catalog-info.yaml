@@ -1,1 +1,25 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nested-yaml-dir-2-catalog-info-yaml
+  title: nested-yaml-dir-2-catalog-info-yaml
+  description: Component for nested-yaml-dir-2-catalog-info-yaml
+  annotations:
+    github.com/project-slug: nested-yaml-dir-2-catalog-info-yaml
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: nested-yaml-dir-2-catalog-info-yaml
+spec:
+  type: url
+  owner: dhrumit
+  lifecycle: experimental
+  targets:
+    - ./dir-3/catalog-info.yaml
